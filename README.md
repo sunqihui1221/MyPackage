@@ -1,12 +1,10 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # MyPackage
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 The goal of MyPackage is for hw05.
@@ -21,7 +19,7 @@ devtools::install_github("sunqihui1221/MyPackage")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+``` r
 library(MyPackage)
 plus10 <- function(x, y) {
   for (i in 1:length(x)) {
